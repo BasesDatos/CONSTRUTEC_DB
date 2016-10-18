@@ -33,5 +33,4 @@ END;
 	$$
 	LANGUAGE 'plpgsql' VOLATILE;
 
-
 select * from registrarProyecto('test2', 'provincia2', 'canton2', 'distrito2', 'juanp1995', 'user1')
